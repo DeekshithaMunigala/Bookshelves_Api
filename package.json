@@ -1,0 +1,17 @@
+{
+  "name": "restful_api",
+  "version": "1.0.0",
+  "description": "This is a simple RESTful Api app built by Deeklshitha",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Munigala Deekshitha",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
