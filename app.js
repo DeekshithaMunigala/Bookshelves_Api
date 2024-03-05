@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const path = require('path');
 const { v4: uuidv4 } = require('uuid'); 
 const app = express();
 const port = 3000;
@@ -10,8 +9,6 @@ app.use(bodyParser.json());
 let books = [
     {id: '123', title: 'Old title', author: 'Old author'}
 ];
-
-app.use(express.static(path.join(__dirname, 'static')));
 
 app.get('/', (req, res) => {
     res.send('<h1>Hi, welcome to the Book App</h1>')
