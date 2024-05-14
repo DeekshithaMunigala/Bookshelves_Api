@@ -14,7 +14,7 @@ Follow these steps to get the project up and running on your local machine.
 ### Installing
 
 1. Clone the repository to your local machine:
-git clone <https://github.com/DeekshithaMunigala/Simple_Restful_Api>
+```git clone https://github.com/DeekshithaMunigala/Simple_Restful_Api```
 
 2. Navigate to the project directory:
 cd book-app
